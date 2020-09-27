@@ -1,0 +1,38 @@
+#admin_nav li.nav-item:not(:last-of-type):after {
+    content: '';
+    width: 1px;
+    height: 50%;
+    background: #d2d2d2;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+:root{
+    --users-color: #c0392b;
+    --files-color: #2980b9;
+    --plans-color: #8e44ad;
+    --packages-color: #16a085;
+    --payments-color: #34495e;
+    --categories-color: #95a5a6;
+}
+
+#admin_nav li.nav-item-users *{
+    color: var(--users-color);
+}
+#admin_nav li.nav-item-files *{
+    color: var(--files-color);
+}
+#admin_nav li.nav-item-plans *{
+    color: var(--plans-color);
+}
+#admin_nav li.nav-item-packages *{
+    color: var(--packages-color);
+}
+#admin_nav li.nav-item-payments *{
+    color: var(--payments-color);
+}
+#admin_nav li.nav-item-categories *{
+    color: var(--categories-color);
+}
